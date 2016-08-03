@@ -5,9 +5,10 @@ Author: Irucka Embry [aut]
 Maintainer: Irucka Embry <iembry@usgs.gov>
 Depends: R (>= 2.14.0), sp (>= 1.1-0)
 Suggests: rgdal
-Description: A map of the USA from the United States Geological Survey (USGS).
-    Irucka worked with this data set while a Cherokee Nation Technology
-    Solutions (CNTS) USGS Contractor and/or USGS employee.
+Description: This package is a renaming of the `USGSstates2k` package. A map
+    of the USA from the United States Geological Survey (USGS). Irucka
+    worked with this data set while a Cherokee Nation Technology Solutions
+    (CNTS) USGS Contractor and/or USGS employee.
 URL: https://github.com/iembry-USGS/states2k
 BugReports: https://github.com/iembry-USGS/states2k/issues
 License: CC0
