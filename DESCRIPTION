@@ -1,22 +1,31 @@
-Package: states2k
-Title: United States of America Map with the NAD 1983 Albers Projection
+Package: USA.state.boundaries
+Title: United States of America (USA) State Boundaries, including Puerto Rico and the U.S. Virgin Islands
 Version: 1.0.0
-Author: Irucka Embry [aut]
-Maintainer: Irucka Embry <iembry@usgs.gov>
-Depends: R (>= 2.14.0), sp (>= 1.1-0)
-Suggests: rgdal
-Description: A map of the USA from the United States Geological Survey (USGS).
-    Irucka worked with this data set while a Cherokee Nation Technology
-    Solutions (CNTS) USGS Contractor and/or USGS employee. It is a renaming of
-    the 'USGSstates2k' package.
-URL: https://github.com/iembry-USGS/states2k
-BugReports: https://github.com/iembry-USGS/states2k/issues
-License: CC0
+Author: Irucka Embry [aut, cre]
+Maintainer: Irucka Embry <iembry@ecoccs.com>
+Depends: R (>= 3.5.0)
+Imports: sp (>= 1.4-1)
+Suggest: graphics, rgdal, raster, ggspatial, sf, spelling
+Description: There are 3 sets of USA maps contained within this data set. 1) A
+    map of the USA with the NAD 1983 Albers Projection from the USGS that was
+    originally part of 'USGSstates2k' which has been archived and is no longer
+    maintained. Irucka worked with that data set while a Cherokee Nation
+    Technology Solutions (CNTS) USGS Contractor and/or USGS employee. 2) A
+    NAD83 datum map of the USA which includes all State boundaries & also
+    includes Puerto Rico and the U.S. Virgin Islands. This map comes from the
+    USGS National Map which has been discontinued. 3) A WGS84 datum map of the
+    USA which includes all State boundaries & also includes Puerto Rico and the
+    U.S. Virgin Islands. This map is a reprojection of the NAD83 datum map from
+    the USGS National Map.
+URL: https://gitlab.com/iembry/iemisc/USA.state.boundaries
+BugReports: https://gitlab.com/iembry/iemisc/USA.state.boundaries/issues
+License: CC0 | file LICENSE
 Copyright: This software is in the public domain because it contains materials
-    that originally came from the United States Geological Survey, an agency of
-    the United States Department of Interior. For more information, see the
-    official USGS copyright policy at
-    http://www.usgs.gov/visual-id/credit_usgs.html#copyright
-LazyData: true
+    that originally came from the United States Geological Survey (USGS), an
+    agency of the United States Department of Interior (DOI). For more
+    information, see the official USGS copyright policy at
+    https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits#copyright
+Language: en-US
 Encoding: UTF-8
-RoxygenNote: 5.0.1
+LazyData: true
+RoxygenNote: 7.1.0
